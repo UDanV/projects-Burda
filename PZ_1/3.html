@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница №3</title>
+</head>
+<body>
+    <h1>Списки</h1>
+    <a href="2.html">Ссылка на вторую станицу</a>
+    <h2>Список языков</h2>
+    <ul>
+        <li>PHP</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h2>Список CMS</h2>
+    <ol class="bold-numbers">
+        <li>joomla</li>
+        <li>wordpress</li>
+        <li>netcat</li>
+        <li>phpBB</li>
+        <li>modx</li>
+        <li>bitrix</li>
+    </ol>
+</body>
+</html>
+<style>
+    ol.bold-numbers {
+        list-style: none; /* Убирает стандартные маркеры */
+        counter-reset: list-counter; /* Устанавливает счётчик */
+    }
+
+    ol.bold-numbers li {
+        counter-increment: list-counter; /* Увеличивает счётчик */
+    }
+
+    ol.bold-numbers li::before {
+        content: counter(list-counter) ". "; /* Добавляет номер с точкой */
+    }
+
+    ol.bold-numbers li:nth-child(6)::before {
+        font-weight: bold; /* Делает номер второго элемента жирным */
+    }
+</style>
