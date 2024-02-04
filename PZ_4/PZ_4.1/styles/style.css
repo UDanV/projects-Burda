@@ -1,0 +1,32 @@
+body {
+    background-image: url("../assets/background.png");
+}
+
+table {
+    margin: auto;
+    text-align: left;
+    border: 5px solid #cccccc; /* Верхняя и левая граница */
+    border-bottom-color: #7F7F7F; /* Цвет нижней границы */
+    border-right-color: #777777; /* Цвет правой границы */
+}
+
+caption {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #be0000;
+}
+
+th {
+    background-color: #cccccc;
+    color: #be0000;
+    border: 1px solid #7F7F7F; /* Верхняя и левая граница */
+    border-bottom-color: #cccccc; /* Цвет нижней границы */
+    border-right-color: #cccccc; /* Цвет правой границы */
+}
+
+td {
+    border: 1px solid #7F7F7F; /* Верхняя и левая граница */
+    border-bottom-color: #cccccc; /* Цвет нижней границы */
+    border-right-color: #cccccc; /* Цвет правой границы */
+}

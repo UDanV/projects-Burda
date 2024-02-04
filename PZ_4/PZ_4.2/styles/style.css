@@ -1,0 +1,39 @@
+body {
+    background: #F0D7D0;
+}
+
+caption {
+    font-weight: 600;
+    font-size: 20px;
+    color: #B06760;
+    margin-bottom: 15px;
+}
+
+table {
+    margin: auto;
+    border: 5px solid #FFFFFF; /* Верхняя и левая граница */
+    border-bottom-color: #7F7F7F; /* Цвет нижней границы */
+    border-right-color: #7F7F7F; /* Цвет правой границы */
+}
+
+.halfOfSeventhCentury {
+    padding: 20px;
+    text-align: center;
+    background-color: #B06760;
+    color: #FFFFFF;
+    border: 1px solid #7F7F7F; /* Верхняя и левая граница */
+    border-bottom-color: #ffffff; /* Цвет нижней границы */
+    border-right-color: #ffffff; /* Цвет правой границы */
+}
+
+th {
+    border: 1px solid #7F7F7F; /* Верхняя и левая граница */
+    border-bottom-color: #ffffff; /* Цвет нижней границы */
+    border-right-color: #ffffff; /* Цвет правой границы */
+}
+
+td {
+    border: 1px solid #7F7F7F; /* Верхняя и левая граница */
+    border-bottom-color: #ffffff; /* Цвет нижней границы */
+    border-right-color: #ffffff; /* Цвет правой границы */
+}
