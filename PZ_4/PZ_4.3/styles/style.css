@@ -1,0 +1,19 @@
+h3 {
+    color: #9F683F;
+    text-align: center;
+}
+
+h4 {
+    background-color: #cccccc;
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    margin: auto;
+}
+
+p {
+    font-weight: 600;
+    font-size: 20px;
+}
