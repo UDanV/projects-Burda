@@ -1,0 +1,92 @@
+body{
+    height: 100%;
+}
+#elem1, #elem2, #elem3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+#elem1{
+    border: 1px solid red;
+    left: 30px;
+    top: 30px;
+}
+#elem2{
+    border: 1px solid blue;
+    left: 100px;
+    top: 100px;
+}
+#elem3{
+    border: 1px solid green;
+    left: 170px;
+    top: 170px;
+}
+.containerRow {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.red { border: 1px solid red; }
+.blue { border: 1px solid blue; }
+.green { border: 1px solid green; }
+
+.boxRow {
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.boxAbsolute {
+    width: 50px;
+    height: 50px;
+}
+
+.containerAbsolute {
+    position: absolute;
+    margin-top: 100px;
+}
+
+#elem4, #elem5, #elem6{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 325px;
+}
+#elem4 {
+    border: 1px solid red;
+    left: 30px;
+    top: 30px;
+}
+#elem5 {
+    border: 1px solid blue;
+    left: 65px;
+    top: 65px;
+}
+#elem6{
+    border: 1px solid green;
+    left: 100px;
+    top: 100px;
+}
+
+#elem7, #elem8, #elem9{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 500px;
+}
+#elem7 {
+    background-color: #FF8888;
+    left: 30px;
+    top: 30px;
+}
+#elem8 {
+    background-color: #7E89EB;
+    left: 65px;
+    top: 65px;
+}
+#elem9 {
+    background-color: #4DEE99;
+    left: 100px;
+    top: 100px;
+}
