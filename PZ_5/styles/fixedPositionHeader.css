@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    color: #000000;
+}
+
+#fixed {
+    position: fixed;
+	width: 100%;
+	background-color: #dccf3c;
+	text-align: center;
+	line-height: 50px;
+	font-size: 21px;
+	color: white;
+}
+
+#text {
+    height: auto;
+    padding: 20px;
+	width: 600px;
+    margin: auto;
+	border: 1px solid #dccf3c;
+}

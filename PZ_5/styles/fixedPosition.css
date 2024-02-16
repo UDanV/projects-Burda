@@ -1,0 +1,22 @@
+body{margin: 0; color: #76214B}
+#fixed{
+	
+	position: fixed;
+	left: 0px;
+	bottom: 0px; 
+	width: 100%;
+	height: 50px;
+	background-color: #B43273;
+	text-align: center;
+	line-height: 50px;
+	font-size: 21px;
+	color: white;
+	border-top: 1px solid #76214B;
+}
+#text{
+	width: 600px;
+	margin: 10px auto 60px auto;
+	padding: 20px;
+	border: 1px solid #B43273;
+	border-radius: 20px 20px 0px 0px;
+}
