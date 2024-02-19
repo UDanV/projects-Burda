@@ -1,0 +1,154 @@
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.menu1 {
+	color: blue; 
+	list-style-position: inside;
+}
+
+.menu1 a:link, .menu1 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+}
+
+.menu1 a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.menu2 {
+	list-style-type: none; 
+	width: 200px;
+	margin-top: 30px;
+}
+
+.menu2 li {
+	margin-bottom: 5px;
+}
+.menu2 a:link, .menu2 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid blue;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+
+.menu2 a:hover {
+	font-weight: bold
+}
+
+.menu3{
+	list-style-type: none; 
+	width: 200px;
+	margin-top: 30px;
+}
+
+.menu3 li {
+	margin-bottom: 5px;
+}
+
+.menu3 a:link, .menu3 a:visited {
+	text-decoration: none;
+	background-color: #3d3d3d;
+	color: #FFFFFF;
+	font: 13px Arial;
+	border: 1px solid #222222;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+
+.menu3 a:hover {
+	font-weight: 600;
+	background-color: #FFFFFF;
+	color: #222222;
+}
+
+.menu4 { 
+	list-style-type: none;
+	width: 200px;
+	margin-top: 30px;
+}
+
+.menu4 li {
+	margin-bottom: 5px;
+}
+
+.menu4 a:link, .menu4 a:visited {
+	text-decoration: none;
+	background-color: #0081E7;
+	color: #FFFFFF;
+	font: 13px Arial;
+	border: 1px solid #0081E7;
+	display: block;
+	padding: 0 5px;
+	line-height: 30px;
+}
+
+.menu4 a:hover {
+	color: #0000FF;
+	background-color: #FFFFFF;
+	border: 1px #0081E7 solid;
+}
+
+.iconVertic {
+	width: 20px;
+	height: 20px;
+	float: right;
+	background-color: #0081E7;
+}
+
+.menu5 {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+.menu5 li {
+	margin-right: 4px;
+	float: left;
+}
+
+.menu5 a:link, .menu5 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+
+.menu5 a:hover, .menu5 a:active {
+	color: red;
+}
+
+.menu6 {
+	list-style-type: none; 
+	margin-top: 100px;
+}
+
+.menu6 li{
+	margin-right: 4px;
+	float: left;
+}
+
+.menu6 a:link, .menu6 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+
+.menu6 a:hover, .menu6 a:active{
+	background-color: #3d3d3d;
+	color: #FFFFFF;
+	border: 1px solid #3d3d3d;
+}
