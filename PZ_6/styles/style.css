@@ -1,6 +1,6 @@
 ul{
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 .clearfix{
@@ -38,7 +38,7 @@ ul{
 	font: 13px Arial;
 	border: 1px solid blue;
 	display: block;
-	padding: 0px 5px;
+	padding: 0 5px;
 	line-height: 30px;
 }
 
@@ -63,7 +63,7 @@ ul{
 	font: 13px Arial;
 	border: 1px solid #222222;
 	display: block;
-	padding: 0px 5px;
+	padding: 0 5px;
 	line-height: 30px;
 }
 
@@ -85,7 +85,7 @@ ul{
 
 .menu4 a:link, .menu4 a:visited {
 	text-decoration: none;
-	background-color: #0081E7;
+	background-color: #0072D1;
 	color: #FFFFFF;
 	font: 13px Arial;
 	border: 1px solid #0081E7;
@@ -104,7 +104,7 @@ ul{
 	width: 20px;
 	height: 20px;
 	float: right;
-	background-color: #0081E7;
+	margin-top: 5px;
 }
 
 .menu5 {
@@ -151,4 +151,77 @@ ul{
 	background-color: #3d3d3d;
 	color: #FFFFFF;
 	border: 1px solid #3d3d3d;
+}
+
+.rowHover {
+	margin-top: 170px;
+	width: 45%;
+	font: 13px Arial;
+}
+
+.rowHover td {
+	text-align: center;
+}
+
+.rowHover td:hover {
+	color: #00b8ff;
+}
+
+.iconCol {
+	width: 50px;
+	height: 50px;
+}
+
+.iconCol:hover {
+	filter: invert(59%) sepia(33%) saturate(5427%) hue-rotate(162deg) brightness(102%) contrast(102%);
+}
+
+.menu8 {
+	margin-top: 50px;
+	list-style: none;
+	display: flex;
+	background-color: #FC9D00;
+	padding: 10px;
+}
+
+.menu8 a:link, .menu8 a:visited {
+	text-decoration: none;
+	font: 13px Arial;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 11px 10px 10px 10px;
+}
+
+.menu8 li {
+	align-items: center;
+}
+
+.menu8 a:hover {
+	background-color: #FF0000;
+}
+
+
+.calendar {
+	border-collapse: collapse;
+	width: 20%; /* Или любая другая ширина, которая вам подходит */
+	margin-top: 50px;
+	font: 13px Arial;
+}
+
+.calendar th, .calendar td {
+	text-align: center;
+}
+
+.calendar th {
+	border-bottom: 1px solid #000000;
+	text-align: center;
+}
+
+.weekend {
+	color: #66a0b7; /* Цвет текста для выходных дней */
+}
+
+.calendar td:hover {
+	color: #FF0000;
+	cursor: pointer;
 }
