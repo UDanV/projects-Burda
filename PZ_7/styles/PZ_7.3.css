@@ -1,0 +1,26 @@
+a {
+    color: #ff0cbf;
+    float: right;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #228b22;
+}
+
+h2 {
+    color: #ff0cbf;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #000000;
+}

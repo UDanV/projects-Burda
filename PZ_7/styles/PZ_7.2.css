@@ -1,0 +1,21 @@
+a {
+    float: right;
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.container {
+    border: 1px solid #cccccc;
+    padding: 10px 10px 25px 10px;
+    width: 40%;
+    margin: auto auto 10px auto;
+    white-space: inherit;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    padding: 0;
+}

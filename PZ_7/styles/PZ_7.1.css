@@ -1,0 +1,12 @@
+a {
+    float: right;
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.container {
+    border: 1px solid #cccccc;
+    padding: 10px 10px 25px 10px;
+    width: 70%;
+    margin: auto auto 10px auto;
+}
