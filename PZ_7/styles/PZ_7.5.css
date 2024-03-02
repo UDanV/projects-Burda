@@ -1,0 +1,23 @@
+.container {
+    border: 3px dashed #008000;
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    border-radius: 15px;
+    color: #008000;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+span {
+    font-weight: 600;
+    text-decoration: underline;
+}

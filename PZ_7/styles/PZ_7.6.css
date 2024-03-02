@@ -1,0 +1,30 @@
+.container {
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    padding: 20px 20px 35px;
+}
+
+h1 {
+    color: #AD2C00;
+}
+
+h2 {
+    color: #AD2C00;
+}
+
+p {
+    text-align: justify;
+    color: #ff0000;
+}
+
+.green {
+    color: green;
+}
+
+small {
+    float: right;
+    font-style: italic;
+    margin-right: 20px;
+}

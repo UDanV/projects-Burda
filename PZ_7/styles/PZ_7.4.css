@@ -1,0 +1,40 @@
+.container {
+    border: 1px solid #000000;
+    width: 40%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.boldText {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    padding: 5px;
+    margin: -10px 0;
+    list-style-type: none;
+    background-color: #3d3d3d;
+ }
+
+.menu li{
+    margin-right: 4px;
+}
+
+.menu a:link, .menu a:visited{
+    text-decoration: none;
+    margin: auto;
+    color: #FFFFFF;
+    font: 13px Arial;
+    padding: 15px;
+}
+
+.menu a:hover, .menu a:active{
+    background-color: #FFFFFF;
+    color: #3d3d3d;
+}
