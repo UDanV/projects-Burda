@@ -1,0 +1,83 @@
+.container1 {
+    border: 2px dotted #cccccc;
+    padding: 15px;
+    margin: 5px;
+}
+
+.container1 input, textarea, button {
+    display: block;
+}
+
+.container2 {
+    border: 2px dotted #cccccc;
+    padding: 15px;
+    margin: 5px;
+}
+
+.container3 {
+    border: 2px dotted #cccccc;
+    padding: 15px;
+    margin: 5px;
+}
+
+.container3 label {
+    border: 1px solid #FF0000;
+}
+
+.inContainer3 {
+    border: 2px solid #7F7F7F;
+    padding: 15px;
+    margin: 5px;
+}
+
+.container4 {
+    border: 2px dotted #cccccc;
+    padding: 15px;
+    margin: 5px;
+}
+
+.container5 {
+    border: 2px dotted #cccccc;
+    padding: 15px;
+    margin: 5px;
+}
+
+.textArea1 {
+    resize: both;
+    width: 200px;
+    height: 100px;
+}
+
+.textArea2 {
+    resize: none;
+    width: 200px;
+    height: 100px;
+}
+
+.textArea3 {
+    resize: vertical;
+    width: 200px;
+    height: 100px;
+}
+
+.textArea4 {
+    resize: horizontal;
+    width: 200px;
+    height: 100px;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+}
