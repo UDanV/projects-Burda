@@ -1,3 +1,4 @@
+/*Свойство justify-content: space-around*/
 .wrapper {
     display: flex;
     padding: 15px;
@@ -6,6 +7,7 @@
     border: 1px dashed #7F7F7F;
 }
 
+/*Свойство justify-content: space-around*/
 .wrapper1 {
     display: flex;
     padding: 15px;
@@ -15,6 +17,7 @@
     border: 1px dashed #7F7F7F;
 }
 
+/*Свойство flex-direction: column*/
 .wrapper2 {
     display: flex;
     padding: 15px;
@@ -25,17 +28,121 @@
     border: 1px dashed #7F7F7F;
 }
 
+/*Свойство flex-wrap: wrap*/
+.wrapper3 {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px dashed #7F7F7F;
+}
+
+/*Свойство flex-wrap: nowrap*/
+.wrapper4 {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    border: 1px dashed #7F7F7F;
+}
+
+/*Свойства flex-grow у элементов, order и margin: auto*/
+.wrapper5 {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px dashed #7F7F7F;
+}
+
 .item1, .item2, .item3 {
     width: 200px;
     border: 1px solid #000000;
 }
 
+.item3 {
+    flex-grow: 3;
+}
+
 .item4, .item5, .item6 {
+     width: 200px;
+     border: 1px solid #000000;
+ }
+
+.item4 {
+    flex-grow: 1;
+}
+
+.item5 {
+    flex-grow: 2;
+}
+
+.item6 {
+    flex-grow: 3;
+}
+
+.item7, .item8, .item9 {
     width: 200px;
     border: 1px solid #000000;
 }
 
-.item7, .item8, .item9 {
+.item7 {
+    flex-grow: 8;
+}
+
+.item2 {
+    flex-grow: 1;
+}
+
+.item3 {
+    flex-grow: 2;
+}
+
+.item10, .item11, .item12 {
+    width: 200px;
+    border: 1px solid #000000;
+}
+
+.item10 {
+    flex-grow: 2;
+    order: 1;
+}
+
+.item11 {
+    order: 2;
+}
+
+.item12 {
+    order: 0;
+}
+
+.item13, .item14, .item15 {
+    flex-basis: 200px;
+    border: 1px solid #000000;
+}
+
+.item13 {
+    flex-grow: 2;
+    order: 1;
+    margin: auto;
+}
+
+.item14 {
+    order: 2;
+}
+
+.item15 {
+    order: 0;
+}
+
+.item {
     width: 200px;
     border: 1px solid #000000;
 }
