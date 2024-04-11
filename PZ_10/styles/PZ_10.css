@@ -4,7 +4,7 @@ body {
 }
 
 .info__input_long {
-    width: 520px;
+    width: 400px;
     margin: 10px;
     padding: 5px;
     border: 1px solid #cccccc;
@@ -13,7 +13,7 @@ body {
 }
 
 .info__input_short {
-    width: 320px;
+    width: 200px;
     margin: 10px auto 10px;
     padding: 5px;
     border: 1px solid #cccccc;
@@ -44,37 +44,43 @@ body {
     width: 520px;
 }
 
-.expert {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 77px;
-    height: 100%;
-    text-align: center;
+.expert__form-wrap {
+    display: grid;
+    width: auto;
 }
 
-.expert img {
+.expert__form-wrap label {
+    width: 200px;
+    text-align: left;
+}
+
+.expert__form-wrap input {
+    margin-right: 10px;
+}
+
+.expert {
+    display: grid;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.expert__icon img {
+    display: block;
     margin: auto;
     width: 50px;
     height: 50px;
+}
+
+.expert__form__container {
+    display: flex;
+    width: 100%;
 }
 
 .expert__title {
     font-weight: normal;
 }
 
-.expert__form__container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.expert__form__wrap {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.expert__form-container {
-    display: block;
-    margin: 20px;
+.expert__label {
+    margin: 10px;
 }
