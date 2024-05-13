@@ -1,0 +1,23 @@
+<div class="n">Форма обратной связи</div>
+<form name="MyForm" action="send.php" method="post">
+  <table>
+    <tr>
+        <td>Ваше имя:</td>
+        <td><input class="input" name="name" type="text" /></td>
+    </tr>
+    <tr>
+        <td>Эл. почта:</td>
+        <td><input class="input" name="email" type="text" /></td>
+    </tr>
+    <tr>
+        <td>Тема:</td>
+        <td><input class="input" name="sub" type="text" /></td>
+    </tr>
+    <tr>
+        <td valign="top">Текст сообщения:</td>
+        <td><textarea name="body" rows="5"></textarea></td>
+    </tr>
+    <tr><td><input value="Отправить" type="submit" /></td></tr>
+  </table>
+</form>
+	</div>
