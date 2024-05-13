@@ -1,0 +1,26 @@
+/*меню*/
+ul#navigation
+    {
+        margin-left: 0;
+        padding-left: 0;
+        list-style-type: none;
+    }
+ul#navigation a
+    {
+        display: block;
+        text-decoration: none;
+        background: #036;
+        color: #fff;
+        padding: .2em .5em;
+        border-bottom: 1px solid #fff;
+        width: 7em;
+    }
+ul#navigation a:hover
+    {
+        background: #69C;
+        color: #000;
+    }
+ul#navigation li
+    {
+        display: inline;
+    }
