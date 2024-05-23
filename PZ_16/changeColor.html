@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Изменение цвета фона при изменении экрана — schoolsw3.com</title>
+  <style>
+    body {
+      background-color: tan;
+      color: black;
+    }
+
+    /* На экранах, которые 992px или меньше, цвет фона синий */
+    @media screen and (max-width: 992px) {
+      body {
+        background-color: blue;
+        color: white;
+      }
+    }
+
+    /* На экранах шириной 600 пикселей или меньше цвет фона оливковый */
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: olive;
+        color: white;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>CSS Изменение цвета фона при изменении экрана</h1>
+<p>Измените размер окна браузера, чтобы увидеть эффект!</p>
+<p>По умолчанию, цвет фона документa "blue". Если размер экрана 992px или меньше, цвет изменится на "синий". Если 600px или меньше, он изменится на "olive".</p>
+</body>
+</html>

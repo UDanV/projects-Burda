@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Сайт — schoolsw3.com</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Стиль body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    /* Заголовок / логотипа */
+    .header {
+      padding: 60px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+    }
+
+    /* Стиль верхней панели навигации */
+    .navbar {
+      display: flex;
+      background-color: #333;
+    }
+
+    /* Стиль ссылок панели навигации */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    /* Изменение цвета при наведении */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Контейнер столбца */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Создайте две неравные колонки, которые сидят рядом друг с другом */
+    /* Боковая панель / левый столбец */
+    .side {
+      flex: 30%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    /* Главная колонка */
+    .main {
+      flex: 70%;
+      background-color: white;
+      padding: 20px;
+    }
+
+    /* Поддельные изображения, только для этого примера */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* Подвал */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+
+    /* Отзывчивый макет когда экран меньше, чем 700 пикселей в ширину, сделать два столбца стека друг на друга, а не рядом друг с другом */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+<!-- Примечание -->
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">Измените размер окна браузера, чтобы увидеть эффект отклика.</h4>
+</div>
+<!-- Заголовок -->
+<div class="header">
+  <h1>CSS Сайт</h1>
+  <p>С <b>flexible</b> макетом.</p>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">Ссылка</a>
+  <a href="#">Ссылка</a>
+  <a href="#">Ссылка</a>
+  <a href="#">Ссылка</a>
+</div>
+<!-- Гибкая сетка (контент) -->
+<div class="row">
+  <div class="side">
+    <h2>Обо мне</h2>
+    <h5>Мое фото:</h5>
+    <div class="fakeimg" style="height:200px;">Изображение</div>
+    <p>Какой-то текст обо мне..</p>
+    <h3>Дополнительный текст</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Изображение</div><br>
+    <div class="fakeimg" style="height:60px;">Изображение</div><br>
+    <div class="fakeimg" style="height:60px;">Изображение</div>
+  </div>
+  <div class="main">
+    <h2>НАЗВАНИЕ РУБРИКИ</h2>
+    <h5>Название описание, ноябрь 10, 2018</h5>
+    <div class="fakeimg" style="height:200px;">Изображение</div>
+    <p>Некоторый текст..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>НАЗВАНИЕ РУБРИКИ</h2>
+    <h5>Название описание, ноябрь 7, 2018</h5>
+    <div class="fakeimg" style="height:200px;">Изображение</div>
+    <p>Некоторый текст..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+<!-- Подвал -->
+<div class="footer">
+  <h2>Подвал</h2>
+</div>
+</body>
+</html>

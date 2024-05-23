@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Установить отзывчивые четыре колонки при изменении экрана — schoolsw3.com</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Создайте четыре одинаковых столбца, которые плавают рядом друг с другом */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 20px;
+        }
+
+        /* Очистка плавающих после колонн */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* На экранах шириной 992px или меньше перейдите от четырех столбцов к двум столбцам */
+        @media screen and (max-width: 992px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* На экранах, которые имеют ширину 600 пикселей или меньше, сделайте стек столбцов поверх друг друга, а не рядом друг с другом */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>CSS Установить отзывчивые четыре колонки при изменении экрана</h1>
+<p><strong>Измените размер окна браузера, чтобы увидеть эффект отклика.</strong></p>
+<p>На экранах, которые 992px или меньше, то колонки изменятся от четырех колонок на две колонки.
+    На экранах шириной 600 пикселей или меньше столбцы будут располагаться друг над другом, а не рядом друг с другом.</p>
+
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <h2>Колонка 1</h2>
+        <p>Некоторый текст..</p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <h2>Колонка 2</h2>
+        <p>Некоторый текст..</p>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+        <h2>Колонка 3</h2>
+        <p>Некоторый текст..</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+        <h2>Колонка 4</h2>
+        <p>Некоторый текст..</p>
+    </div>
+</div>
+</body>
+</html>

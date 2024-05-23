@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Установить отзывчивое меню навигации — schoolsw3.com</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Стиль верхней панели навигации */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Стиль верхних навигационных ссылок */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Изменение цвета при наведении */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* На экранах, которые 600px шириной или меньше, сделать ссылки меню стек поверх друг друга, а не рядом друг с другом */
+    @media screen and (max-width: 600px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>CSS Установить отзывчивое меню навигации</h1>
+<p>Измените размер окна браузера, чтобы увидеть эффект: когда экран меньше, чем 600px, меню навигации будет отображаться вертикально, а не горизонтально.</p>
+<div class="topnav">
+  <a href="#">Ссылка</a>
+  <a href="#">Ссылка</a>
+  <a href="#">Ссылка</a>
+</div>
+</body>
+</html>

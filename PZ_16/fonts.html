@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Установить изменение размера шрифта при изменении экрана — schoolsw3.com</title>
+  <style>
+    div.example {
+      background-color: lightgrey;
+      padding: 20px;
+    }
+
+    @media screen and (min-width: 600px) {
+      div.example {
+        font-size: 80px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.example {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>CSS Установить изменение размера шрифта при изменении экрана</h1>
+
+<div class="example">Пример DIV.</div>
+
+<p>Если ширина браузера не превышает 600 пикселей, установить размер шрифта DIV равным 30 пикселей. Если это 601px или шире, установить размер шрифта 80px. Изменить размер окна браузера, чтобы увидеть эффект.</p>
+
+</body>
+</html>
